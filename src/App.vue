@@ -12,17 +12,19 @@ async function greet() {
 </script>
 
 <template>
-    <main class="container">
-        <h1>Welcome to Tauri + Vue</h1>
-
-        <form class="row" @submit.prevent="greet">
-            <input
-                id="greet-input"
-                v-model="name"
-                placeholder="Enter a name..."
-            />
-            <button type="submit">Greet</button>
-        </form>
-        <p>{{ greetMsg }}</p>
-    </main>
+    <div class="flex flex-col flex-1 items-center justify-center">
+        <h1>hello there</h1>
+    </div>
 </template>
+
+<!--         <h1>Welcome to Tauri + Vue</h1>
+
+<form class="row" @submit.prevent="greet">
+    <input
+        id="greet-input"
+        v-model="name"
+        placeholder="Enter a name..."
+    />
+    <button type="submit">Greet</button>
+</form>
+<p>{{ greetMsg }}</p> -->
