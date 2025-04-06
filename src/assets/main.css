@@ -2,25 +2,16 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-    /* icy color scheme
-    --color-navy: #0c172c;
-    --color-blue: #276ca0;
-    --color-secondary: #273e8b;
-    --color-light-blue: #74cae2;
-    --color-white: #e9fbfb; */
-
-    /* donatello color scheme
-    --color-d-black: #0e0b13;
-    --color-d-white: #f5f2f7;
-    --color-d-dark-purple: #433456;
-    --color-d-light-purple: #b8a9cb;
-    --color-d-green: #b7c49c;
-    --color-d-purple: #7b1efe;  */
-
-    /* light mode colors */
     --color-black: #0e0816;
     --color-white: #ebe4f7;
     --color-primary: #431f75;
     --color-secondary: #a77de3;
     --color-accent: #6e20d9;
+
+    --font-daydream: 'Daydream', 'sans-serif';
+}
+
+@font-face {
+    font-family: Daydream;
+    src: url("~public/Daydream.ttf") format("truetype");
 }
