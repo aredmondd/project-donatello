@@ -22,12 +22,5 @@
     --color-white: #ebe4f7;
     --color-primary: #431f75;
     --color-secondary: #a77de3;
-    --color-accent: #5e01df;
-
-    /* dark mode colors */
-    --color-black-dark: #0f081b;
-    --color-white-dark: #efe9f7;
-    --color-primary-dark: #ae8ae0;
-    --color-secondary-dark: #461c82;
-    --color-accent-dark: #7c20fe;
+    --color-accent: #6e20d9;
 }

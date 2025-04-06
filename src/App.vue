@@ -21,16 +21,12 @@ function changeMode() {
 
 <template>
     <div class="flex flex-col flex-1 items-center justify-center">
-        <div class="flex gap-4 mb-12 p-4 bg-black/25 dark:bg-white/25">
-            <div class="p-12 rounded-full bg-black dark:bg-black-dark"></div>
-            <div class="p-12 rounded-full bg-white dark:bg-white-dark"></div>
-            <div
-                class="p-12 rounded-full bg-primary dark:bg-primary-dark"
-            ></div>
-            <div
-                class="p-12 rounded-full bg-secondary dark:bg-secondary-dark"
-            ></div>
-            <div class="p-12 rounded-full bg-accent dark:bg-accent-dark"></div>
+        <div class="flex gap-4 mb-12 p-4">
+            <div class="p-12 rounded-full bg-white border-1 border-black dark:bg-black dark:border-white"></div>
+            <div class="p-12 rounded-full bg-black dark:bg-white"></div>
+            <div class="p-12 rounded-full bg-primary dark:bg-secondary"></div>
+            <div class="p-12 rounded-full bg-secondary dark:bg-primary"></div>
+            <div class="p-12 rounded-full bg-accent"></div>
         </div>
 
         <button id="dark-mode-button" @click="changeMode">
